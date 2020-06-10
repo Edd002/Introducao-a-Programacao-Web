@@ -1,0 +1,4 @@
+/* Deixar links na horizontal para menu de navegação */
+ul.classUlMenu li {
+    display:inline;
+}

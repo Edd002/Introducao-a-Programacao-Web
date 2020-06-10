@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Reajuste Salarial </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" rel="stylesheet" href="bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="css.css">
+		<script type="text/javascript" src="js.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<form method="post" class="form-horizontal">
+					<div class="form-group">
+						<label class="col-sm-4 control-label" for="id-input-salario-atual"> Salário Atual </label>
+						<div class="col-sm-8">
+							<div class="input-group">
+								<div class="input-group-addon">
+									$
+								</div>
+								<input type="number" id="id-input-salario-atual" class="form-control text-right">
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-4 control-label" for="id-input-salario-antes"> Salário antes do reajuste </label>
+						<div class="col-sm-8">
+							<div class="input-group">
+								<div class="input-group-addon">
+									$
+								</div>
+								<input type="number" id="id-input-salario-antes" class="form-control text-right" disabled>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-4 control-label" for="id-input-percentual"> Percentual de Aumento Aplicado </label>
+						<div class="col-sm-8">
+							<div class="input-group">
+								<div class="input-group-addon">
+									%
+								</div>
+								<input type="number" id="id-input-percentual" class="form-control text-right" disabled>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-4 control-label" for="id-input-aumento"> Valor do Aumento </label>
+						<div class="col-sm-8">
+							<div class="input-group">
+									<div class="input-group-addon">
+										$
+									</div>
+								<input type="number" id="id-input-aumento" class="form-control text-right" disabled>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-4 control-label" for="id-input-salario-novo"> Novo Salário </label>
+						<div class="col-sm-8">
+							<div class="input-group">
+									<div class="input-group-addon">
+										$
+									</div>
+								<input type="number" id="id-input-salario-novo" class="form-control text-right" disabled>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-offset-4 col-sm-8">
+							<div class="input-group">
+								<input type="button" class="btn btn-success" value="Calcular" onclick="calcular(document.getElementById('id-input-salario-atual').value);">
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

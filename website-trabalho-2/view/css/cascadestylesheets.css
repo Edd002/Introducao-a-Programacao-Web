@@ -1,0 +1,153 @@
+/* SOBRESCREVER BOOTSTRAP */
+html, body
+{
+	background-color: #FFFFFF !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+th, td {
+	text-align: center !important;
+	vertical-align: middle !important;
+}
+
+.container-fluid {
+	padding: 0 !important;
+}
+
+.jumbotron {
+	margin: 0 !important;
+	padding: 0 !important;
+	background-color: #FFFFFF !important;
+}
+
+.page-header {
+	margin-top: 5% !important;
+}
+
+.nav {
+	background-color: #EEEEEE !important;
+	font-weight: bold !important;
+}
+
+.nav .active a {
+	background-color: #003266 !important;
+}
+
+.nav .active a:hover {
+	background-color: #003266 !important;
+}
+
+.nav li a:hover {
+	color: #FFFFFF;
+	background-color: #337AB7 !important;
+}
+
+.h1 {
+	color: #003266 !important;
+}
+
+.input-group [type="button"] {
+	background-color: #003266 !important;
+	border: none !important;
+	font-weight: bold !important;
+}
+
+.input-group [type="button"]:hover {
+	background-color: #337AB7 !important;
+}
+
+.input-group [type="button"]:focus {
+	outline: none !important;
+}
+
+.list-group li {
+	background-color: #003266 !important;
+	color: white !important;
+	font-size: 24px !important;
+}
+
+.class-img-alongamentos {
+	height: 500px !important;
+	width: 500px !important;
+	margin: 5% !important;
+}
+
+.class-img-aerobicos {
+	height: 350px !important;
+	width: 750px !important;
+	margin: 5% !important;
+}
+
+.class-img-aerobicos {
+	height: 350px !important;
+	width: 750px !important;
+	margin: 5% !important;
+}
+
+.badge-left {
+	float: left !important;
+}
+
+/* CLASSES PRÓPRIAS SEM SOBRESCRITA */
+.class-div-cabecalho {
+	margin-bottom: 5%;
+}
+
+.class-div-corpo {
+}
+
+.class-div-rodape {
+	background-color: #EEEEEE;
+	margin-top: 5%;
+}
+
+.class-img-index {
+	height: 310px;
+	width: 310px;
+}
+
+.class-a-index {
+	color: #000000;
+}
+
+.class-a-index:hover {
+	color: #337AB7;
+	text-decoration: none;
+}
+
+.class-img-nutricao {
+	height: 500px;
+	width: 500px;
+}
+
+.class-img-logo {
+	height: 90px;
+	margin-top: 6%;
+}
+
+.class-div-imc {
+	margin-top: 2.5%;
+}
+
+.class-h2-alongamentos {
+	margin-right: 5%;
+}
+
+.class-div-copyright {
+	padding: 5%;
+}
+
+.class-h2 {
+	margin-top: 5% !important;
+}
+
+#id-div-linha1corpo-index {
+}
+
+#id-div-linha2corpo-index {
+	margin-top: 5%;
+}

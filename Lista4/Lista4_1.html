@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<title>Lista 4 - Exercício 1</title>
+	</head>
+	<body>
+		<div class="class-div-tudo">
+			<form method="post" action="http://centrodeestudos.tolentinos.com.br/pweb/exercicios/lista4/inscricoes.php">
+				<h1> Lista 4 - Exercício 1 </h1>
+				<span>
+					<label for="email">Endereço de e-mail: </label>
+					<input type="text" name="email">
+				</span>
+
+				<span>
+					<label for="nome">Name: </label>
+					<input type="text" name="nome">
+				</span>
+
+				<span>
+					<label for="sexo">Sexo: </label>
+					<select name="sexo">
+						<option value="Masculino">Masculino</option>
+						<option value="Feminino">Feminino</option>
+					</select>
+				</span>
+
+				<span>
+					<label for="curso">Curso: </label>
+					<select name="curso">
+						<option value="Técnino em Informática">Técnino em Informática</option>
+						<option value="Técnino em Alimentos">Técnino em Alimentos</option>
+						<option value="Técnino em Agropecuária">Técnino em Agropecuária</option>
+					</select>
+				</span>
+
+				<span>
+					<label for="enderecoCorrespondencia">Endereço para correspondência: </label>
+					<input type="text" name="enderecoCorrespondencia">
+				</span>
+
+				<span>
+					<label for="complementoEndereco">Complemento do endereço: </label>
+					<input type="text" name="complementoEndereco">
+				</span>
+
+				<span>
+					<label for="cep">CEP: </label>
+					<input type="text" name="cep">
+				</span>
+
+				<span>
+					<label for="municipioText">Município: </label>
+					<input type="text" name="municipioText">
+					<select name="municipioCombo">
+						<option value="RS">RS</option>
+						<option value="RS">MG</option>
+						<option value="RS">SP</option>
+						<option value="RS">RJ</option>
+					</select>
+				</span>
+
+				<div class="class-div-botoes">
+					<input type="submit" name="enviar" value="Enviar">
+					<input type="reset" name="limpar" value="Limpar">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lista 3 - Exercício 4</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="">
+	</head>
+	<body>
+		<form method="post">
+			<table border="1" rules="groups" width="50%" style="margin: 0 auto;">
+				<tr>
+					<td>
+						<h1 align="center">Escola Virtual</h1>
+
+						<h2 align="center">Formulário de Pré-Matrícula</h2>
+
+						<hr width="98%">
+
+						<table border="1" rules="none" align="center" width="98%">
+							<tr>
+								<td colspan="3">
+									<br>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<b>Dados Pessoais: </b>
+								</td>
+								<td colspan="2">
+
+								</td>
+							</tr>
+							<tr>
+								<td align="right">
+									<label>Nome do Aluno: </label>
+								</td>
+								<td colspan="2">
+									<input type="text" name="nomeAluno" maxlength="40" size="40">
+								</td>
+							</tr>
+							<tr>
+								<td align="right">
+									<label>Nascimento(dd/mm/aaaa): </label>
+								</td>
+								<td colspan="2">
+									<input type="text" name="diaNascimentoAluno" maxlength="2" size="2"> / <input type="text" name="mesNascimentoAluno" maxlength="2" size="2"> / <input type="text" name="AnoNascimentoAluno" maxlength="4" size="4">
+								</td>
+							</tr>
+							<tr>
+								<td align="right">
+									<label>Nome da Mãe: </label>
+								</td>
+								<td colspan="2">
+									<input type="text" name="nomeMaeAluno" maxlength="40" size="40">
+								</td>
+							</tr>
+							<tr>
+								<td align="right"
+									<label>Nome do Pai: </label>
+								</td>
+								<td colspan="2">
+									<input type="text" name="nomePaiAluno" maxlength="40" size="40">
+								</td>
+							</tr>
+							<tr>
+								<td align="right">
+									<label>Telefone: </label>
+								</td>
+								<td colspan="2">
+									DDD(<input type="text" name="dddTelAluno" maxlength="3" size="3">) Tel: <input type="text" name="telAluno" maxlength="8" size="8"> Ramal: <input type="text" name="ramalTelAluno" maxlength="3" size="3">
+								</td>
+							</tr>
+							<tr>
+								<td align="right">
+									<label>E-Mail: </label>
+								</td>
+								<td colspan="2">
+									<input type="text" name="emailAluno" size="40">
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3">
+									<br>
+									<hr>
+									<hr>
+									<br>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<b>Informações de Matrícula: </b>
+								</td>
+								<td>
+									
+								</td>
+								<td>
+									
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>Série: </label>
+								</td>
+								<td>
+									<label>Turno: </label>
+								</td>
+								<td>
+									<label>Atividades Extracurrículares: </label>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top">
+									<select name="serieAluno">
+										<option value="preEscolar">Pré-escolar</option>
+										<option value="primeiroAnoEnsinoFundamental">1º Ano do Ensino Fundamental</option>
+										<option value="segundoAnoEnsinoFundamental">2º Ano do Ensino Fundamental</option>
+										<option value="terceiroAnoEnsinoFundamental">3º Ano do Ensino Fundamental</option>
+										<option value="quartoAnoEnsinoFundamental">4º Ano do Ensino Fundamental</option>
+										<option value="quintoAnoEnsinoFundamental">5º Ano do Ensino Fundamental</option>
+										<option value="sextoAnoEnsinoFundamental">6º Ano do Ensino Fundamental</option>
+										<option value="setimoAnoEnsinoFundamental">7º Ano do Ensino Fundamental</option>
+										<option value="oitavoAnoEnsinoFundamental">8º Ano do Ensino Fundamental</option>
+										<option value="nonoAnoEnsinoFundamental">9º Ano do Ensino Fundamental</option>
+										<option value="primeiroAnoEnsionoMedio">1º Ano do Ensino Médio</option>
+										<option value="segundoAnoEnsionoMedio">2º Ano do Ensino Médio</option>
+										<option value="terceiroAnoEnsionoMedio">3º Ano do Ensino Médio</option>
+									</select>
+								</td>
+								<td valign="top">
+									<input type="radio" name="turnoAluno">Manhã<br>
+									<input type="radio" name="turnoAluno">Noite<br>
+								</td>
+								<td>
+									<input type="checkbox" name="atividadesExtracurricularesAluno" value="informatica">Informática<br>
+									<input type="checkbox" name="atividadesExtracurricularesAluno" value="musica">Música<br>
+									<input type="checkbox" name="atividadesExtracurricularesAluno" value="balet">Balet<br>
+									<input type="checkbox" name="atividadesExtracurricularesAluno" value="pintura">Pintura<br>
+									<input type="checkbox" name="atividadesExtracurricularesAluno" value="judo">Judô<br>
+									<input type="checkbox" name="atividadesExtracurricularesAluno" value="futebol">Futebol<br>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3">
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<br>
+
+						<input type="submit" value="Enviar Formulário">
+
+						<input type="reset" value="Limpar Campos">
+
+						<br><br>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

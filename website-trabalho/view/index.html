@@ -1,0 +1,153 @@
+<!-- Permitir apenas HTML 4 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"
+"http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html>
+	<head>
+		<!-- Esta tag define o texto que aparecerá na aba da página no navegador -->
+		<title>InfoFitness</title>
+
+		<!-- Aceitar caracter especial -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Importar arquivo css -->
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+
+		<!-- Colocar ícone ao lado do título da página na aba -->
+		<link rel="shortcut icon" href="img/icone-logo/icone-if.png" type="image/x-icon" />
+
+		<!-- Importar aquivo javascript-->
+		<script src="js/javascript.js"></script>
+		 
+		 <!--
+			Atributos para TABLE
+			- border: borda da tabela
+			- cellpadding: aumentar o espaço interno da célula (união linha/coluna)
+			- cellspacing: espaçamento entre células
+			- width: largura da tabela
+			- background: inserir imagem de fundo na tabela
+			- bgcolor: inserir cor de fundo na tabela
+			- border-color: cor da borda
+			- rules: definir as linhas a serem mostradas na tabela (cols, rows, all ou none)
+
+			Atributos para TR
+			- bgcolor: cor do fundo da linha
+
+			Atributos para TD
+			- width: largura da célula (não "estoura" o limite o width da tabela)
+			- bgcolor: inserir cor de fundo na célula
+			- background: inserir imagem de fundo na célula
+			- align: alinhamento horizontal
+			- valign: alinhamento vertical
+			- height: altura da célula
+			- colspan: mesclar colunas (informar a quantidade de colunas a serem unificadas) -> retirar as TDs que estão na mesma TR
+			- rowspan: mesclar linhas (informar a quantidade de linhas a serem unificadas)   -> retirar as TDs que estão nas TRs subsequentes
+
+			&nbsp: new blank space
+		 -->
+		 
+	</head>
+	<body>
+		<div id="idDivTudoIndex" class="classDivTudo">
+			<table id="idTableTudoIndex" class="classTableTudo" cellpadding="0" width="100%">
+				<!-- Tag para título da tabela -->
+				<!--<caption>Título da Tabela</caption> -->
+				<tr id="idTrCabecalhoIndex" class="classTrCabecalho">
+					<td id="idTdCapaIndex" class="classTdCapa" bgcolor="white" colspan="3">
+						<img src="img/capas/capa-fitness.jpg" alt="capa-fitness.jpg" height="300px" width="100%">
+					</td>
+				</tr>
+				<tr id="idTrMenuIndex" class="classTrMenu">
+					<td id="idTdMenuIndex" class="classTdMenu" bgcolor="white" colspan="3" align="middle">
+						<ul id="idUlMenuIndex" class="classUlMenu" type="none">
+							<li><a href="index.html">Página Inicial</a></li>
+							&nbsp&nbsp&nbsp&nbsp
+							<li><a href="pages/alongamentos.html">Alongamentos</a></li>
+							&nbsp&nbsp&nbsp&nbsp
+							<li><a href="pages/esportes.html">Esportes</a></li>
+							&nbsp&nbsp&nbsp&nbsp
+							<li><a href="pages/exercicios-aerobicos.html">Exercicios Aeróbicos</a></li>
+							&nbsp&nbsp&nbsp&nbsp
+							<li><a href="pages/exercicios-anaerobicos.html">Exercícios Anaeróbicos</a></li>
+							&nbsp&nbsp&nbsp&nbsp
+							<li><a href="pages/nutricao.html">Nutrição</a></li>
+						</ul>
+					</td>
+				</tr>
+				<tr id="idTrCorpoIndex" class="classTrCorpo">
+					<td id="idTdBannerPublicidade1Index" class="classTdBannerPublicidade1" bgcolor="white" width="15%">
+						<a href="">
+							<!-- <img src="img/banners/banner-fitness-evolution.jpg" alt="banner-fitness-evolution" height="2000px" width="100%"> -->
+						</a>
+					</td>
+					<td id="idTdConteudoIndex" class="classTdConteudo" bgcolor="white">
+						<table id="idTableConteudoIndex" class="classTableConteudo" cellpadding="0" width="100%">
+							<tr>
+								<td align="middle">
+									<a href="pages/alongamentos.html">
+										<img src="img/conteudo/alongamentos/alongamentos.jpg" alt="alongamentos" height="300px" width="100%">
+										ALONGAMENTOS
+									</a>
+								</td>
+							<tr>
+							<tr>
+								<td align="middle">
+									<a href="pages/exercicios-aerobicos.html">
+										<img src="img/conteudo/exercicios-aerobicos/exercicios-aerobicos.jpg" alt="exercicios-aerobicos" height="300px" width="100%">
+										EXERCÍCIOS AERÓBICOS
+									</a>
+								</td>
+							<tr>
+							<tr>
+								<td align="middle">
+									<a href="pages/exercicios-anaerobicos.html">
+										<img src="img/conteudo/exercicios-anaerobicos/exercicios-anaerobicos.jpg" alt="exercicios-anaerobicos" height="300px" width="100%">
+										EXERCÍCIOS ANAERÓBICOS
+									</a>
+								</td>
+							<tr>
+							<tr>
+								<td align="middle">
+									<a href="pages/nutricao.html">
+										<img src="img/conteudo/nutricao/nutricao.jpg" alt="nutricao" height="300px" width="100%">
+										NUTRIÇÃO
+									</a>
+								</td>
+							<tr>
+							<tr>
+								<td align="middle">
+									<a href="pages/esportes.html">
+										<img src="img/conteudo/esportes/esportes.jpg" alt="esportes" height="300px" width="100%">
+										ESPORTES
+									</a>
+								</td>
+							<tr>
+						</table>
+					</td>
+					<td id="idTdBannerPublicidade2Index" class="classTdBannerPublicidade2" bgcolor="white" width="15%">
+						<a href="">
+							<!-- <img src="img/banners/banner-fitness-banners.jpg" alt="banner-fitness-banners" height="2000px" width="100%"> -->
+						</a>
+					</td>
+				</tr>
+				<tr id="idTrRodapeIndex" class="classTrRodape">
+					<td id="idTdLogoIndex" class="classTdLogo" align="middle" bgcolor="white">
+						<img src="img/icone-logo/logo-if.png" alt="logo-if" height="150px" width="150px">
+					</td>
+					<td id="idTdMenuInferiorIndex" class="classTdMenuInferior" bgcolor="white">
+						<h5 align="middle">Copyright © 2017 All Rights Reserved.</h5>
+					</td>
+					<td id="idTdContatosIndex" class="classTdContatos" bgcolor="white">
+						<h4 align="middle">
+							E-mail: infofitness@infofitness.com
+							<br><br>
+							Telefones:
+							<br>
+							(31)3333-3333 (31)999999999
+						</h4>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

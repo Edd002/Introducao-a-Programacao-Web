@@ -1,0 +1,35 @@
+/* CSS */
+
+.class-div-tudo {
+	width: 33.33%;
+	margin: 0 auto;
+	padding: 1%;
+	text-align: center;
+	border-style: dashed;
+}
+
+		.class-div-tudo label {
+			display: block;
+			margin-top: 3%;
+		}
+
+		.class-div-tudo input[type=text], select {
+			width: 75%;
+		}
+
+		.class-div-tudo select[name=municipioCombo] {
+			margin-top: 1.5%;
+		}
+
+		.class-span-radios {
+			display: block;
+		}
+
+		.class-span-radios label {
+			display: inline-block;
+		}
+
+		.class-div-botoes {
+			text-align: center;
+			margin-top: 3%;
+		}
